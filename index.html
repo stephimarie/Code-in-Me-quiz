@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code in me quiz</title>
+</head>
+<body>
+<!-- Section that holds the start of the quiz -->
+<section id="landingPage" class="container">
+    <h1>Code in me quiz</h1>
+    <button id="clickMe">Start</button>
+    <p>
+        Rules to play: You will get 60 seconds to answer 7 quesitons. For ever correct anwser
+        you will get 5 points and for ever incorrect answer you will lose 5 point. Lorem ipsum dolor,
+        sit amet consectetur adipisicing elit. Officiis nihil ipsum iste aspernatur neque nobis enim distinctio cumque impedit non itaque totam explicabo omnis, quasi, quae exercitationem minima magnam. Labore.
+    </p>
+</section>
+<!-- Section that holds question -->
+<section id="questionPage"  class="container hide">
+    <h6>Timer: <span id="timer"></span></h6>
+    <h2 id="questions">Questions</h2>
+   <ul id="answers">
+   </ul>
+</section>
+ <!-- Section that holds final score-->
+ <section id="finalscorePage"  class="container hide">
+     <h3>Final Score</h3>
+     <h5 id="finalScore"></h5>
+     <p> Message on how well you did!</p>
+    <form id = "submitExample">
+    <input type="text" id="textExample">
+    <input type="submit" value="Submit Me">
+    <button id="tryAgain">Try Again</button>
+</form>
+<div id="scoreList">
+</div>
+</section>
+
+    <script src="app.js"></script>
+</body>
+</html>
