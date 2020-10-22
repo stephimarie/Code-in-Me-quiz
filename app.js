@@ -37,9 +37,9 @@ let qa = [
     },
     question7 =
     {
-        question : "Where does Stephanie lives?",
-        correctAnsw: "Pasadena",
-        answerArray : ["Pasadena", "Studio City", "Hollywood", "Glendale"]
+        question : "What are conditional statements in Javascript?",
+        correctAnsw: "All of thee above",
+        answerArray : ["if", "else", "else if", "All of thee above"]
     }
 ]
 let highScore = [];
