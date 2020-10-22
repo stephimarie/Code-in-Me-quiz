@@ -1,4 +1,4 @@
-# 04 Web APIs: Code Quiz
+# 04 Code Quiz
 
 ## Your Task
 
@@ -31,13 +31,6 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 ```
-
-
-## Mock-Up
-
-The following animation demonstrates the application functionality:
-
-![code quiz](./Assets/04-web-apis-homework-demo.gif)
 
 
 ## Grading Requirements
@@ -87,5 +80,4 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
