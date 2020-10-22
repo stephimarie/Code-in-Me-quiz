@@ -19,9 +19,9 @@ let qa = [
     },
     question4 =
     {
-        question : "Where does Stephanie lives?",
-        correctAnsw: "Pasadena",
-        answerArray : ["Pasadena", "Studio City", "Hollywood", "Glendale"]
+        question : "What is the tag used to link a JavaScript page in HTML?",
+        correctAnsw: "<Script scr>",
+        answerArray : ["<link rel>", "<meta name>", "<script scr>", "<script type>"]
     },
     question5 =
     {
