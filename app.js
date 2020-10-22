@@ -1,9 +1,9 @@
 let qa = [
     question1 =
     {
-        question : "Where does Stephanie lives?",
-        correctAnsw: "Pasadena",
-        answerArray : ["Pasadena", "Studio City", "Hollywood", "Glendale"]
+        question : "What is JavaScript?",
+        correctAnsw: "A scripting or programming language",
+        answerArray : ["A scripting or programming language", "A web page", "it displays static information", "All of thee above"]
     },
     question2 =
     {
