@@ -7,9 +7,9 @@ let qa = [
     },
     question2 =
     {
-        question : "Where does Stephanie lives?",
-        correctAnsw: "Pasadena",
-        answerArray : ["Pasadena", "Studio City", "Hollywood", "Glendale"]
+        question : "JavaScript and Java are the same thing. True or False?",
+        correctAnsw: "False",
+        answerArray : ["False", "True"]
     },
     question3 =
     {
