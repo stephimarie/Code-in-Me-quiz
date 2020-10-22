@@ -1,3 +1,12 @@
 .hide {
     display: none;
 }
+
+body {
+    font-family: 'Kaushan Script', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Special Elite', cursive;
+}
