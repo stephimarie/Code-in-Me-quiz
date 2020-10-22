@@ -31,9 +31,9 @@ let qa = [
     },
     question6 =
     {
-        question : "Where does Stephanie lives?",
-        correctAnsw: "Pasadena",
-        answerArray : ["Pasadena", "Studio City", "Hollywood", "Glendale"]
+        question : "Javascript boolean are data type that take the value of _____?",
+        correctAnsw: "All of thee above",
+        answerArray : ["True or False", "Yes and No", "On and Off", "All of thee above"]
     },
     question7 =
     {
