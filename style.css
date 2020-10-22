@@ -17,5 +17,6 @@ font-family: 'Special Elite', cursive;
 }
 
 footer {
+    border: 1px solid white;
     font-family: 'Parisienne', cursive;
 }
