@@ -25,9 +25,9 @@ let qa = [
     },
     question5 =
     {
-        question : "Where does Stephanie lives?",
-        correctAnsw: "Pasadena",
-        answerArray : ["Pasadena", "Studio City", "Hollywood", "Glendale"]
+        question : "The _____ is a function in JavaScript which is used to print any message that needs to be displayed to the user?",
+        correctAnsw: "console.log",
+        answerArray : ["console.asst", "console.log", "console.collapsed", "console.logged"]
     },
     question6 =
     {
