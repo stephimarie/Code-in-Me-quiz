@@ -7,13 +7,17 @@ h1 {
     font-size: 80px;
     text-align: center;
 }
+p {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
 
 body {
     text-align: center;
-    font-family: 'Kaushan Script', cursive;
+    /* font-family: 'Kaushan Script', cursive;
 font-family: 'Quicksand', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Special Elite', cursive;
+font-family: 'Shadows Into Light', cursive; */
+
 }
 
 footer {
