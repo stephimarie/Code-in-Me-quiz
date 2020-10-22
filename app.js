@@ -13,9 +13,9 @@ let qa = [
     },
     question3 =
     {
-        question : "Where does Stephanie lives?",
-        correctAnsw: "Pasadena",
-        answerArray : ["Pasadena", "Studio City", "Hollywood", "Glendale"]
+        question : "Variables in JavaScript can be defined using either?",
+        correctAnsw: "All of thee above",
+        answerArray : ["Var", "Let", "Const", "All of thee above"]
     },
     question4 =
     {
