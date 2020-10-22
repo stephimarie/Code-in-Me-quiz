@@ -3,21 +3,24 @@
 }
 
 h1 {
+    text-align: center;
     font-family: 'Orbitron', sans-serif;
-    font-size: 80px;
-    text-align: center;
+    font-size: 80px; 
+
 }
-p {
-    text-align: center;
+
+/* Question text */
+h2 { 
     font-family: 'Special Elite', cursive;
 }
+/* Answers text */
+/* font-family: 'Quicksand', sans-serif; */
 
 body {
     text-align: center;
-    /* font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script', cursive;
 font-family: 'Quicksand', sans-serif;
-font-family: 'Shadows Into Light', cursive; */
-
+font-family: 'Shadows Into Light', cursive;
 }
 
 footer {
