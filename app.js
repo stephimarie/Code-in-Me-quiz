@@ -44,8 +44,13 @@ let finalscorePage = document.getElementById("finalscorePage");
 let clickMe = document.getElementById("clickMe");
 let tryAgain = document.getElementById("tryAgain");
 //Q&A variables
+let quesionPointer = 0
 let questions = document.getElementById("question");
 let answers = document.getElementById("answer");
+var optionA = document.querySelector("#optionA")
+var optionB = document.querySelector("#optionB")
+var optionC = document.querySelector("#optionC")
+
 //Score variables
 let scoreList = document.getElementById("scoreList");
 let finalScore = document.getElementById("finalScore");
@@ -80,4 +85,18 @@ function hidePages() {
         }
     }
 }
+function setQuestions() {
 
+    if (questionsPointer === questions.length) {
+      clearInterval(timer)
+      alert("You are done with " + timerCount + " time left")
+      return
+    }
+  
+    question.textContent = questions[questionsPointer].q
+    optionA.textContent = questions[questionsPointer].answerArray[0]
+    optionB.textContent = questions[questionsPointer].answerArray[1]
+    optionC.textContent = questions[questionsPointer].answerArray[2]
+    optionD.textContent = questions[questionsPointer].answerArray[3]
+
+  }
