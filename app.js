@@ -1,44 +1,37 @@
-let qa = [
-    question1 =
+let questions = [
     {
-        question : "What is JavaScript?",
-        correctAnsw: "A scripting or programming language",
+        q : "What is JavaScript?",
+        a: "A scripting or programming language",
         answerArray : ["A scripting or programming language", "A web page", "it displays static information", "All of thee above"]
     },
-    question2 =
     {
-        question : "JavaScript and Java are the same thing. True or False?",
-        correctAnsw: "False",
+        q : "JavaScript and Java are the same thing. True or False?",
+        a: "False",
         answerArray : ["False", "True"]
     },
-    question3 =
     {
-        question : "Variables in JavaScript can be defined using either?",
-        correctAnsw: "All of thee above",
+        q : "Variables in JavaScript can be defined using either?",
+        a: "All of thee above",
         answerArray : ["Var", "Let", "Const", "All of thee above"]
     },
-    question4 =
     {
-        question : "What is the tag used to link a JavaScript page in HTML?",
-        correctAnsw: "<Script scr>",
+        q : "What is the tag used to link a JavaScript page in HTML?",
+        a: "<Script scr>",
         answerArray : ["<link rel>", "<meta name>", "<script scr>", "<script type>"]
     },
-    question5 =
     {
-        question : "The _____ is a function in JavaScript which is used to print any message that needs to be displayed to the user?",
-        correctAnsw: "console.log",
+        q : "The _____ is a function in JavaScript which is used to print any message that needs to be displayed to the user?",
+        a: "console.log",
         answerArray : ["console.asst", "console.log", "console.collapsed", "console.logged"]
     },
-    question6 =
     {
-        question : "Javascript boolean are data type that take the value of _____?",
-        correctAnsw: "All of thee above",
+        q : "Javascript boolean are data type that take the value of _____?",
+        a: "All of thee above",
         answerArray : ["True or False", "Yes and No", "On and Off", "All of thee above"]
     },
-    question7 =
     {
-        question : "What are conditional statements in Javascript?",
-        correctAnsw: "All of thee above",
+        q : "What are conditional statements in Javascript?",
+        a: "All of thee above",
         answerArray : ["if", "else", "else if", "All of thee above"]
     }
 ]
@@ -51,8 +44,8 @@ let finalscorePage = document.getElementById("finalscorePage");
 let clickMe = document.getElementById("clickMe");
 let tryAgain = document.getElementById("tryAgain");
 //Q&A variables
-let questions = document.getElementById("questions");
-let answers = document.getElementById("answers");
+let questions = document.getElementById("question");
+let answers = document.getElementById("answer");
 //Score variables
 let scoreList = document.getElementById("scoreList");
 let finalScore = document.getElementById("finalScore");
