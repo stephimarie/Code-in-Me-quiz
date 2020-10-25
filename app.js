@@ -52,6 +52,9 @@ var optionA = document.querySelector("#optionA")
 var optionB = document.querySelector("#optionB")
 var optionC = document.querySelector("#optionC")
 var optionD = document.querySelector("#optionD")
+var optionE = document.querySelector("#optionE")
+var optionF = document.querySelector("#optionF")
+var optionG = document.querySelector("#optionG")
 
 //Score variables
 let scoreList = document.getElementById("scoreList");
@@ -102,3 +105,77 @@ function setQuestions() {
     optionD.textContent = questions[questionsPointer].answerArray[3]
 
   }
+  setQuestions()
+
+  optionA.addEventListener("click", function () {
+    if (optionA.getAttribute("data-answer") === questions[questionsPointer].a) {
+      console.log("This is correct")
+      questionsPointer++
+      setQuestions()
+    } else {
+      console.log("wrong")
+      timerCount -= 5
+    }
+  })
+  
+  optionB.addEventListener("click", function () {
+    if (optionB.getAttribute("data-answer") === questions[questionsPointer].a) {
+      console.log("This is correct")
+      questionsPointer++
+      setQuestions()
+    } else {
+      console.log("wrong")
+      timerCount -= 5
+    }
+  })
+  
+  optionC.addEventListener("click", function () {
+    if (optionC.getAttribute("data-answer") === questions[questionsPointer].d) {
+      console.log("This is correct")
+      questionsPointer++
+      setQuestions()
+    } else {
+      console.log("wrong")
+      timerCount -= 5
+    }
+  })
+  optionD.addEventListener("click", function () {
+    if (optionD.getAttribute("data-answer") === questions[questionsPointer].c) {
+      console.log("This is correct")
+      questionsPointer++
+      setQuestions()
+    } else {
+      console.log("wrong")
+      timerCount -= 5
+    }
+  })
+  optionE.addEventListener("click", function () {
+    if (optionE.getAttribute("data-answer") === questions[questionsPointer].b) {
+      console.log("This is correct")
+      questionsPointer++
+      setQuestions()
+    } else {
+      console.log("wrong")
+      timerCount -= 5
+    }
+  })
+  optionF.addEventListener("click", function () {
+    if (optionF.getAttribute("data-answer") === questions[questionsPointer].d) {
+      console.log("This is correct")
+      questionsPointer++
+      setQuestions()
+    } else {
+      console.log("wrong")
+      timerCount -= 5
+    }
+  })
+  optionG.addEventListener("click", function () {
+    if (optionG.getAttribute("data-answer") === questions[questionsPointer].d) {
+      console.log("This is correct")
+      questionsPointer++
+      setQuestions()
+    } else {
+      console.log("wrong")
+      timerCount -= 5
+    }
+  })
