@@ -1,37 +1,37 @@
 let questions = [
     {
         q : "What is JavaScript?",
-        a: "A scripting or programming language",
+        a: "A",
         answerArray : ["A scripting or programming language", "A web page", "it displays static information", "All of thee above"]
     },
     {
         q : "JavaScript and Java are the same thing. True or False?",
-        a: "False",
+        a: "A",
         answerArray : ["False", "True"]
     },
     {
         q : "Variables in JavaScript can be defined using either?",
-        a: "All of thee above",
+        a: "D",
         answerArray : ["Var", "Let", "Const", "All of thee above"]
     },
     {
         q : "What is the tag used to link a JavaScript page in HTML?",
-        a: "<Script scr>",
+        a: "C",
         answerArray : ["<link rel>", "<meta name>", "<script scr>", "<script type>"]
     },
     {
         q : "The _____ is a function in JavaScript which is used to print any message that needs to be displayed to the user?",
-        a: "console.log",
+        a: "B",
         answerArray : ["console.asst", "console.log", "console.collapsed", "console.logged"]
     },
     {
         q : "Javascript boolean are data type that take the value of _____?",
-        a: "All of thee above",
+        a: "D",
         answerArray : ["True or False", "Yes and No", "On and Off", "All of thee above"]
     },
     {
         q : "What are conditional statements in Javascript?",
-        a: "All of thee above",
+        a: "D",
         answerArray : ["if", "else", "else if", "All of thee above"]
     }
 ]
@@ -47,6 +47,7 @@ let tryAgain = document.getElementById("tryAgain");
 let quesionPointer = 0
 let questions = document.getElementById("question");
 let answers = document.getElementById("answer");
+
 var optionA = document.querySelector("#optionA")
 var optionB = document.querySelector("#optionB")
 var optionC = document.querySelector("#optionC")
