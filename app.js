@@ -50,6 +50,7 @@ let answers = document.getElementById("answer");
 var optionA = document.querySelector("#optionA")
 var optionB = document.querySelector("#optionB")
 var optionC = document.querySelector("#optionC")
+var optionD = document.querySelector("#optionD")
 
 //Score variables
 let scoreList = document.getElementById("scoreList");
