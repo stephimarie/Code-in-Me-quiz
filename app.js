@@ -57,20 +57,20 @@ let answers = document.getElementById("answers");
 let scoreList = document.getElementById("scoreList");
 let finalScore = document.getElementById("finalScore");
 let textExample = document.getElementById("textExample");
-//time variable
-// var timerCount = 60
-// var timerEl = document.querySelector("#timer")
+//time variablele
+let timerCount = 60
+let timerEl = document.querySelector("#timer")
 
-// timerEl.textContent = timerCount
+timerEl.textContent = timerCount
 
-// var timer = window.setInterval(function () {
-//   timerCount--;
-//   timerEl.textContent = timerCount
+let timer = window.setInterval(function () {
+  timerCount--;
+  timerEl.textContent = timerCount
 
-//   if (timerCount === 0) {
-//     clearInterval(timer)
-//   }
-// }, 1000)
+  if (timerCount === 0) {
+    clearInterval(timer)
+  }
+}, 1000)
 
 let timer = document.getElementById("timer");
 let sectionArray = [landingpage, questionPage, finalscorePage];
