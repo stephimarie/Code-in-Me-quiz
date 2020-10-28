@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Code in me quiz</title>
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Orbitron&family=Parisienne&family=Quicksand:wght@500&family=Shadows+Into+Light&family=Special+Elite&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta
+        name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Stylesheet -->
+        <link
+        rel="stylesheet" href="style.css">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Bootstrap -->
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Orbitron&family=Parisienne&family=Quicksand:wght@500&family=Shadows+Into+Light&family=Special+Elite&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-</head>
-<body>
-<!-- Section that holds the start of the quiz -->
-<section id="landingPage" class="container">
-    <h1>Code in me quiz</h1>
-    <button id="clickMe">Start</button>
-    <p>
-        Rules to play: This quiz will test your knowledge on the subject of Javascript.
-        You will get 60 seconds to answer 7 questions. 
-        You will earn 5 points for ever correct answer. 
-        If you answer incorrectly you will lose 5 points and 2 seconds off the timer. 
-        Bonus points can be earned by adding any time remaining to your score.
-        You are score will be given at the end of the quiz and you can enter your initials to our high score list.
-        Good Luck!
-        
-    </p>
-</section>
-<!-- Section that holds question -->
-<section id="questionPage"  class="container hide">
-    <h6>Timer:60 <span id="timer"></span></h6> 
-    <h2 id="questions">Questions</h2>
-   <ul id="answers">
-    <li id="optionA" data-answer="A"></li>
-    <li id="optionB" data-answer="B"></li>
-    <li id="optionC" data-answer="C"></li>
-    <li id="optionD" data-answer="D"></li>
-   </ul>
-</section>
- <!-- Section that holds final score-->
- <section id="finalscorePage"  class="container hide">
-     <h3>Final Score</h3>
-     <h5 id="finalScore"></h5>
-     <p> Message on how well you did!</p>
-    <form id = "submitExample">
-    <input type="text" id="textExample">
-    <input type="submit" value="Submit Me">
-    <button id="tryAgain">Try Again</button>
-</form>
-<div id="scoreList">
-</div>
-</section>
+        <title>Code in me quiz</title>
+    </head>
+    <body>
 
-    <scrip src="app.js"></scrip>
+        <header>
+            <h6><span id="timer"></span></h6>
+        </header>
+        <!-- Section that holds the start of the quiz -->
+        <section id="landingPage" class="container">
+            <h1>Code in me quiz</h1>
+            <button onclick="startQuiz();">Start</button>
+            <p>
+                Rules to play: This quiz will test your knowledge on the subject of Javascript.
+                        You will get 60 seconds to answer 7 questions. 
+                        You will earn 5 points for ever correct answer. 
+                        If you answer incorrectly you will lose 5 points and 2 seconds off the timer. 
+                        Bonus points can be earned by adding any time remaining to your score.
+                        You are score will be given at the end of the quiz and you can enter your initials to our high score list.
+                        Good Luck!
 
-    <footer id="sticky-footer" class="py-4 bg-grey text-white-50">
-        <div class="container text-center">
-          <small>Copyright &copy; Stephanie Marie</small>
-        </div>
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+            </p>
+        </section>
+        <!-- Section that holds question -->
+        <section id="questionPage" class="container hide">
+            
+            <h2>Questions</h2>
+            <h4 id="question"></h4>
+            <ul id="answers">
+            </ul>
+        </section>
+        <!-- Section that holds final score-->
+        <section id="finalscorePage" class="container hide">
+            <h3>Final Score</h3>
+            <h5 id="finalScore"></h5>
+            <p>
+                Message on how well you did!</p>
+            <form id="submitExample">
+                <input type="text" id="textExample">
+                <input type="submit" value="Submit Me">
+                <button id="tryAgain">Try Again</button>
+            </form>
+            <div id="scoreList"></div>
+        </section>
+
+
+        <footer id="sticky-footer" class="py-4 bg-grey text-white-50">
+            <div class="container text-center">
+                <small>Copyright &copy; Stephanie Marie</small>
+            </div>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
 </html>
