@@ -30,7 +30,7 @@ const questions = [
         answerArray: ["True or False", "Yes and No", "On and Off", "All of thee above"]
     },
     {
-        q: "What are conditional statements in Javascript?",
+        q : "What are conditional statements in Javascript?",
         a: "All of thee above",
         answerArray: ["if", "else", "else if", "All of thee above"]
     }
@@ -53,37 +53,28 @@ const questions = [
 
 */
 
-//Section variables
+// Section variables
 
-// function myFunction() {
-//   var element = document.getElementById("landingPage");
-//   element.classList.remove("landingPage");
-// }
+function myFunction() {
+  var element = document.getElementById("landingPage");
+  element.classList.remove("landingPage");
+}
+
 let highScore= [];
 
 // sections id
-let landingpage = document.getElementById("landingPage");
-let questionPage = document.getElementById("questionPage");
-let finalscorePage = document.getElementById("finalscorePage");
+const landingpage = document.getElementById("landingPage");
+const questionPage = document.getElementById("questionPage");
+const finalscorePage = document.getElementById("finalscorePage");
 
 //Buttons variables
-// let clickMe = document.getElementById("clickMe");
 let tryAgain = document.getElementById("tryAgain");
 
-//Q&A variables
-//let questionPointer = 0;
-
-//let question = document.getElementById("question");
+// Q&A variables
+let questionPointer = 0;
 let answers = document.getElementById("answers");
 let question = document.getElementById("question");
 
-// var optionA = document.querySelector("#optionA")
-// var optionB = document.querySelector("#optionB")
-// var optionC = document.querySelector("#optionC")
-// var optionD = document.querySelector("#optionD")
-// var optionE = document.querySelector("#optionE")
-// var optionF = document.querySelector("#optionF")
-// var optionG = document.querySelector("#optionG")
 
 //Score variables
 let scoreList = document.getElementById("scoreList");
@@ -98,14 +89,6 @@ timer.textContent = timerCount
 // let sectionArray = [landingpage, questionPage, finalscorePage];
 // clickMe.addEventListener("click", startQuiz);
 
-// timer.setInterval(function () {
-//   timerCount--;
-//   timerEl.textContent = timerCount
-
-//   if (timerCount === 0) {
-//     clearInterval(timer)
-//   }
-// }, 1000)
 
 let pageArray = [landingpage, finalscorePage, questionPage]
 
@@ -125,6 +108,7 @@ function hidePages() {
     }
 }
 
+
 function hideTimer() {
   if(!timer.classList.contains('hide')) {
     timer.classList.add('hide');
@@ -143,93 +127,3 @@ for (let i = 0; i < questions.answerArray; i++) {
 
   answers.appendChild(ans);
 }
-
-// function setQuestions() {
-
-//     if (questionsPointer === questions.length) {
-//       clearInterval(timer)
-//       alert("You are done with " + timerCount + " time left")
-//       return
-//     }
-  
-//     question.textContent = questions[questionsPointer].q
-//     optionA.textContent = questions[questionsPointer].answerArray[0]
-//     optionB.textContent = questions[questionsPointer].answerArray[1]
-//     optionC.textContent = questions[questionsPointer].answerArray[2]
-//     optionD.textContent = questions[questionsPointer].answerArray[3]
-
-//   }
-//   setQuestions()
-
-//   optionA.addEventListener("click", function () {
-//     if (optionA.getAttribute("data-answer") === questions[questionsPointer].a) {
-//       console.log("This is correct")
-//       questionsPointer++
-//       setQuestions()
-//     } else {
-//       console.log("wrong")
-//       timerCount -= 5
-//     }
-//   })
-  
-//   optionB.addEventListener("click", function () {
-//     if (optionB.getAttribute("data-answer") === questions[questionsPointer].a) {
-//       console.log("This is correct")
-//       questionsPointer++
-//       setQuestions()
-//     } else {
-//       console.log("wrong")
-//       timerCount -= 5
-//     }
-//   })
-  
-//   optionC.addEventListener("click", function () {
-//     if (optionC.getAttribute("data-answer") === questions[questionsPointer].d) {
-//       console.log("This is correct")
-//       questionsPointer++
-//       setQuestions()
-//     } else {
-//       console.log("wrong")
-//       timerCount -= 5
-//     }
-//   })
-//   optionD.addEventListener("click", function () {
-//     if (optionD.getAttribute("data-answer") === questions[questionsPointer].c) {
-//       console.log("This is correct")
-//       questionsPointer++
-//       setQuestions()
-//     } else {
-//       console.log("wrong")
-//       timerCount -= 5
-//     }
-//   })
-//   optionE.addEventListener("click", function () {
-//     if (optionE.getAttribute("data-answer") === questions[questionsPointer].b) {
-//       console.log("This is correct")
-//       questionsPointer++
-//       setQuestions()
-//     } else {
-//       console.log("wrong")
-//       timerCount -= 5
-//     }
-//   })
-//   optionF.addEventListener("click", function () {
-//     if (optionF.getAttribute("data-answer") === questions[questionsPointer].d) {
-//       console.log("This is correct")
-//       questionsPointer++
-//       setQuestions()
-//     } else {
-//       console.log("wrong")
-//       timerCount -= 5
-//     }
-//   })
-//   optionG.addEventListener("click", function () {
-//     if (optionG.getAttribute("data-answer") === questions[questionsPointer].d) {
-//       console.log("This is correct")
-//       questionsPointer++
-//       setQuestions()
-//     } else {
-//       console.log("wrong")
-//       timerCount -= 5
-//     }
-//   })
