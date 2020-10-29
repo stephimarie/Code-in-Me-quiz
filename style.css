@@ -4,6 +4,7 @@
 
 #timer{
     float: right;
+    size: 19px;
 }
 
 h1 {
@@ -18,7 +19,10 @@ h2 {
     font-family: 'Special Elite', cursive;
 }
 /* Answers text */
-/* font-family: 'Quicksand', sans-serif; */
+.Answers {
+    font-family: 'Quicksand', sans-serif;
+}
+
 
 body {
     text-align: center;

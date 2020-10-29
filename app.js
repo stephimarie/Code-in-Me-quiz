@@ -1,37 +1,37 @@
 const questions = [
      {
-        q: "What is JavaScript?",
-        a: "A scripting or programming language",
+        question: "What is JavaScript?",
+        correctAnswer: "A scripting or programming language",
         answerArray: ["A scripting or programming language", "A web page", "it displays static information", "All of thee above"]
     },
      {
-        q: "JavaScript and Java are the same thing. True or False?",
-        a: "False",
+        question: "JavaScript and Java are the same thing. True or False?",
+        correctAnswer: "False",
         answerArray: ["False", "True"]
     },
      {
-        q: "Variables in JavaScript can be defined using either?",
-        a: "All of thee above",
+        question: "Variables in JavaScript can be defined using either?",
+        correctAnswer: "All of thee above",
         answerArray: ["Var", "Let", "Const", "All of thee above"]
     },
     {
-        q: "What is the tag used to link a JavaScript page in HTML?",
-        a: "<script scr>",
+        question: "What is the tag used to link a JavaScript page in HTML?",
+        correctAnswer: "<script scr>",
         answerArray: ["<link rel>", "<meta name>", "<script scr>", "<script type>"]
     },
     {
-        q: "The _____ is a function in JavaScript which is used to print any message that needs to be displayed to the user?",
-        a: "console.log",
+        question: "The _____ is a function in JavaScript which is used to print any message that needs to be displayed to the user?",
+        correctAnswer: "console.log",
         answerArray: ["console.asst", "console.log", "console.collapsed", "console.logged"]
     },
     {
-        q: "Javascript boolean are data type that take the value of _____?",
-        a: "All of thee above",
+        question: "Javascript boolean are data type that take the value of _____?",
+        correctAnswer: "All of thee above",
         answerArray: ["True or False", "Yes and No", "On and Off", "All of thee above"]
     },
     {
-        q : "What are conditional statements in Javascript?",
-        a: "All of thee above",
+        question: "What are conditional statements in Javascript?",
+        correctAnswer: "All of thee above",
         answerArray: ["if", "else", "else if", "All of thee above"]
     }
 ]
