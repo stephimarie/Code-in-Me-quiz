@@ -42,6 +42,7 @@ const questionContent = [
 
 
 let highScore = [];
+let viewScores = document.getElementById('view-scores');
 
 // sections id
 const landingPage = document.getElementById("landingPage");
