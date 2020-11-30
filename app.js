@@ -64,10 +64,9 @@ let scoreList = document.getElementById("scoreList");
 let high_score = document.getElementById("high-score");
 let textExample = document.getElementById("textExample");
 
-startButton.addEventListener("click", startQuiz);
+// startButton.addEventListener("click", startQuiz);
 
 
-let timer = document.getElementById("timer")
 
 let sectionArray = [landingPage, questionPage, finalScorePage];
 
