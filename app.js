@@ -50,6 +50,8 @@ let startButton = document.getElementById("start-button");
 // Question page 
 let questionPage = document.getElementById("question-Page");
 let question = document.getElementById("question");
+let answers = document.getElementById("answers");
+let feedback = document.getElementById('feedback')
 // sections id
 const landingPage = document.getElementById("landingPage");
 const finalScorePage = document.getElementById("finalScorePage");
@@ -57,7 +59,6 @@ const finalScorePage = document.getElementById("finalScorePage");
 // Buttons variables
 let tryAgain = document.getElementById("tryAgain");
 // Q&A variables
-let answers = document.getElementById("answers");
 let question = document.getElementById("question");
 
 
