@@ -38,12 +38,15 @@ const questionContent = [
 
 
 
-// Section variables
-
-
+// Store highScore and user 
 let highScore = [];
+// Header
 let viewScores = document.getElementById('view-scores');
-
+let timer = document.getElementById('timer');
+// Main
+// Start Page 
+let startPage = document.getElementById('start-page');
+let startButton = document.getElementById("start-button");
 // sections id
 const landingPage = document.getElementById("landingPage");
 const questionPage = document.getElementById("questionPage");
@@ -51,7 +54,6 @@ const finalScorePage = document.getElementById("finalScorePage");
 
 // Buttons variables
 let tryAgain = document.getElementById("tryAgain");
-let startButton = document.getElementById("startQuiz");
 // Q&A variables
 let answers = document.getElementById("answers");
 let question = document.getElementById("question");
