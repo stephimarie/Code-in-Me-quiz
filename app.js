@@ -47,9 +47,11 @@ let timer = document.getElementById('timer');
 // Start Page 
 let startPage = document.getElementById('start-page');
 let startButton = document.getElementById("start-button");
+// Question page 
+let questionPage = document.getElementById("question-Page");
+let question = document.getElementById("question");
 // sections id
 const landingPage = document.getElementById("landingPage");
-const questionPage = document.getElementById("questionPage");
 const finalScorePage = document.getElementById("finalScorePage");
 
 // Buttons variables
