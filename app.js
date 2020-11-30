@@ -52,6 +52,13 @@ let questionPage = document.getElementById("question-Page");
 let question = document.getElementById("question");
 let answers = document.getElementById("answers");
 let feedback = document.getElementById('feedback')
+// Initials Page
+let initialsEnter = document.getElementById('initial-enter');
+let displayScore = document.getElementById('display-score');
+let displayPercent = document.getElementById('display-percent');
+let initialText = document.getElementById('initial-text');
+let submitInitial = document.getElementById('submit-initial');
+
 // sections id
 const landingPage = document.getElementById("landingPage");
 const finalScorePage = document.getElementById("finalScorePage");
