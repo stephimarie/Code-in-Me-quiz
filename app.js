@@ -58,7 +58,16 @@ let displayScore = document.getElementById('display-score');
 let displayPercent = document.getElementById('display-percent');
 let initialText = document.getElementById('initial-text');
 let submitInitial = document.getElementById('submit-initial');
+// Highscore Page
+let highScorePage = document.getElementById('highscore-page');
+let highScoreContainer = document.getElementById('highScore-container')
+let goBack = document.getElementById('go-back');
+let clearHighScores = document.getElementById('clear-highscore');
 
+let pageArray = [startPage, questionPage, initialsEnter, highScorePage];
+
+// adds funcitionality to each button on index.html
+viewScores.addEventListener
 // sections id
 const landingPage = document.getElementById("landingPage");
 const finalScorePage = document.getElementById("finalScorePage");
