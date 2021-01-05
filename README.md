@@ -27,6 +27,22 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 ```
+## Screenshot of Website:
+
+
+
+## BuiltWith:
+
+* HTML
+* CSS
+* Bootstrap
+
+## Resource preferences:
+* [Bootstrap](https://bootstrap.com//)
+
+## Github Links
+[Code in Me quiz](https://stephimarie.github.io/All_about_SMarie/.)
+
 
 
 
