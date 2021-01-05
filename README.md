@@ -29,5 +29,4 @@ THEN I can save my initials and score
 ```
 
 
-Thank you, Stephanie Marie.
 
